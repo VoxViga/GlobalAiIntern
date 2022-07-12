@@ -73,7 +73,7 @@ defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
 deprecat==2.1.1
 diff-match-patch @ file:///Users/ktietz/demo/mc3/conda-bld/diff-match-patch_1630511840874/work
 dill==0.3.4
-distributed @ file:///opt/conda/conda-bld/distributed_1647271944416/work
+setuptools==0.7.3
 dnspython==2.2.1
 docutils @ file:///C:/ci/docutils_1620828260973/work
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0-py3-none-any.whl
