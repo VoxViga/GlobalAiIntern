@@ -44,14 +44,14 @@ newdf = pd.concat([stocks, last_day_price])
 newdf.to_csv('historical_data.csv')
 
 #Connect MongoDB using pymongo
-client = pymongo.MongoClient("mongodb+srv://voxviga:Vigahwj960303@cluster0.qie7n.mongodb.net/?retryWrites=true&w=majority")
+#client = pymongo.MongoClient("mongodb+srv://voxviga:Vigahwj960303@cluster0.qie7n.mongodb.net/?retryWrites=true&w=majority")
 
-db = client['GlobalAI']
+#db = client['GlobalAI']
 
-col = db["5 year historical stock data"]
-df2 = pd.read_csv('historical_data.csv')
-df2_dict = df2.to_dict(orient='records')
-col.insert_many(df2_dict)
+#col = db["5 year historical stock data"]
+#df2 = pd.read_csv('historical_data.csv')
+#df2_dict = df2.to_dict(orient='records')
+#col.insert_many(df2_dict)
 
 def calc_stats(df):
     for i in df:
