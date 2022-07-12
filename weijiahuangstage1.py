@@ -70,17 +70,6 @@ et = time.time()
 elapsed_time = et - st
 print('Execution time:', elapsed_time, 'seconds')
 
-# get the multiprocess time
-multitimedf = newdf.copy()
-result = []
-process = multiprocessing.Process(target = calc_stats, args=(multitimedf,))
-result.append(process)
-st = time.time()
-process.start()
-et = time.time()
-elapsed_time = et - st
-print('Execution time:', elapsed_time, 'seconds')
-
 app = dash.Dash()
 
 app.layout=html.Div([
