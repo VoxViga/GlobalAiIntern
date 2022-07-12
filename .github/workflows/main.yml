@@ -16,4 +16,3 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "weijiahuang-global-stage1" #Must be unique in Heroku
           heroku_email: "hweijia33@gmail.com"
-          remote_branch: "gh-pages"
